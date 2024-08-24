@@ -1,0 +1,401 @@
+/*Custom Fonts-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+/*Common CSS-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    
+}
+/*h1 style*/
+h1{
+    font-family: Arial, Helvetica,'Anton', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 2em;
+    color: rgb(0, 72, 255);
+    text-align: center
+}
+/*h2 style*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;;
+    color: black;
+}
+/*h3 style*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    text-align: center
+}
+/*p style*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: black;
+    text-align: center
+}
+/*h1 background color*/
+h1 {
+  background-color: lightcyan;
+}
+
+div {
+  background-color: lightblue;
+}
+/*p background color*/
+p {
+  background-color: lightyellow;
+}
+
+/*Header CSS---------------------------------------*/
+header
+{
+    background: :rgba(78,199,186,255);
+    border-radius: 10px;;
+    border: 1px solid green;
+    text-align: left;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+header object{
+  float: right;
+  padding: 10px;
+
+}
+
+/*Nav CSS-------------------------------------------*/
+
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color:rgb(200, 100, 255);
+}
+
+#fpIntro #fpintroTitle p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 25px;;
+    color:rgb(0, 0, 0);
+}
+
+#fplinkArea .fplinkAreaContent a{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: blue;
+} 
+
+#bestSellersList ol li{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: black; 
+}
+
+aside li{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: violet; 
+    
+} 
+
+#orReadingBooks p:first-child{
+     font-weight: bold;
+}
+
+#orReadingBooks .orBook h2 a{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 18px;;
+    color: blue;
+}
+
+/*title style----------------------------------*/
+#lrgImageMapCaption p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 15px;;
+    color: black;
+}
+
+.lrgGroup .lrgGroupTitle h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;;
+    color: black;
+}
+
+.lrgGroup .lrgGroupMeetTimes table th{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+}
+
+.lrgGroup .lrgGroupMeetTimes table td{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+}
+
+.lrgGroup .lrgGroupContactName p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    font-size: 18px;;
+    color:rgb(0, 0, 0);
+}
+
+.lrgGroup .lrgGroupAddress p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+}
+
+/*Footer CSS-------------------------------------------*/
+
+footer #fpcontactInformation #contact
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;;
+    color: red;
+}
+
+/* create id for email like in the example code  */
+footer #contactInfo #name
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: rgb(0, 0, 0);
+}
+
+footer #contactInfo #email
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: black;
+}
+
+
+/*Header CSS---------------------------------------*/
+
+header { grid-area: header; }
+
+header{
+    background:rgba(20, 50, 25, 255);
+    border-radius: 20px;;
+    border: 05px solid red;
+    text-align: center;
+    width:100%;
+    height:100px;
+    padding: 0px;   
+}
+
+/*title CSS----------------------------------*/
+
+#Maps { grid-area: image; }
+#lrgImageMapCaption{grid-area: imgCaption;}
+.one{grid-area: one;}
+.two{grid-area: two;}
+.three{grid-area: three;}
+.four{grid-area: four;}
+
+
+#lrgImageMapCaption{
+    background: rgb(229, 231, 245);
+    text-align: center;
+}
+
+#lrgImageMapCaption p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 18px;;
+    color: black;
+}
+
+.lrgGroup{
+   padding:20px;
+   background: rgb(250, 250, 20);
+   border:2px solid red;
+   margin:2px;
+   border-style: dotted;
+
+}
+
+.lrgGroup .lrgGroupTitle {
+    background: rgb(212, 212, 134);
+}
+
+.lrgGroup .lrgGroupTitle h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;;
+    color: black;
+}
+
+
+.lrgGroup .lrgGroupMeetTimes p{
+    font-weight: bold;
+  
+   
+}
+
+.lrgGroup .lrgGroupMeetTimes table th{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+    float:left;
+}
+
+.lrgGroup .lrgGroupMeetTimes table td{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+ 
+}
+
+.lrgGroup .lrgGroupContactName p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    font-size: 18px;;
+    color:rgb(0, 0, 0);
+    position: relative;
+    top:20px;
+}
+
+
+.lrgGroup .lrgGroupAddress p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color:rgb(0, 0, 0);
+    position: relative;
+    top:20px;
+}
+
+/*drop down button*/
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*amination to make an image hover*/
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

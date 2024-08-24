@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <style>
+/*        background     */
+body {background-color: paleturquoise;}
+</style>
+    <!--    Title   -->
+    <title>Sports</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A breakdown of his World Cup and career highlights">
+    <meta name="author" content="Lionel Messi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Football">
+    <!--    link to the style sheet.css  -->
+    <link rel="stylesheet" type="text/css" href="StyleSheet/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.js"></script>
+     <!--    link to create facebook icon   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/alert.js"></script>
+  </head>
+
+<!-- body of Site -->
+<body>
+ <!--Header-->
+        <header>
+            <h3>Football&#128513;</h3>
+    </header>
+
+    
+<!--        image for sport on the top of the page     -->
+    <h1><img src="assets/sports%20logo.jfif" width="width" height="height" alt="Sports" class="center"></h1>
+    
+<!--        Drop down button created for all HTML      -->
+        <h1><div class="dropdown">
+  <button class="dropbtn">Contents</button>
+  <div class="dropdown-content">
+    <a href="index.html">Sport (Football)</a>
+    <a href="Basketball.html">Basketball</a>
+    <a href="Tennis.html">Tennis</a>
+    <a href="Boxing.html">Boxing</a>
+    <a href="Athletics.html">Athletics (Sprinting)</a>
+  </div>     
+</div></h1>
+    
+<!--2 buttons for making full screen anc closing full screen     -->
+<button onclick="openFullscreen();">Go Fullscreen Mode</button>
+<button onclick="closeFullscreen();">Close Fullscreen</button>
+<script src="scripts/fullscreen.js"></script>
+    
+<!--        assets connected to each HTML       -->
+        <aside>
+        <!-- <th> -->
+        <a href="index.html">
+        <img src="assets/argentina.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th>
+        <th> -->
+        <a href="Basketball.html">
+        <img src="assets/lebron.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th>
+        <th> -->
+        <a href="Tennis.html">
+        <img src="assets/rafael%20nadal.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th> -->
+        <!-- <th> -->
+        <a href="Boxing.html">
+        <img src="assets/floyd%20mayweather.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th> -->
+        <!--<th>-->
+        <a href="Athletics.html">
+        <img src="assets/Usain%20bolt.jfif" width="100" height="100" alt="sports">
+        </a>
+    </aside>
+
+<!--title of the article-->
+<div id = "lrgImageMapCaption"><h1><p><b>Lionel Messi: A breakdown of his World Cup and career highlights</b></p></h1> </div>
+    
+<!--   content of the article     -->
+  <section>  <div class = "lrgGroup one">
+<p>After inspiring Argentina to a historic World Cup victory in Qatar, we look back at his illustrious career. Lionel Messi has finally won the World Cup.
+The forward has delighted football fans for more than 18 years with his scintillating, elegant brand of football, picking up more than 10 La Liga titles and four Champions Leagues along the way. Here’s a look back at the Argentinian’s performance at World Cup 2022 and his career before it. Messi’s 2022 World Cup: From disaster to triumph Eight years ago, Messi came close to the World Cup, dragging his team to the final in Brazil, only to lose to Germany in extra time.
+</p></div></section>
+    
+<!--        Image of Leonel Messi     -->
+<p>
+<img src="assets/messi%20looking%20down.jpg" width="400" height="300" alt="Sports">
+</p>
+
+<!--title of the audio-->
+<div id = "lrgImageMapCaption"><h1>Lionel Messi & Argentina: 'The Last Chapter' - World Cup 2022</h1></div>
+
+<!--link to the youtube video where the audio was obtained from-->
+<p>Audio courtesy of <a href="https://www.youtube.com/watch?v=dRq6FQa7VaQ">Lionel Messi</a>.</p>   
+    
+<!--the audio itself available with play button and volume control, download and playback speed-->
+<p>
+<audio controls>
+  <source src="assets/Lionel%20Messi.mp3">
+  Your browser does not support the audio element.
+</audio>
+ 
+<!--   content of the article     -->
+<article><div class = "lrgGroup one">
+<p>
+At the start of this World Cup, it looked like another trophyless campaign was on the cards when Saudi Arabia fought back from a Messi opener to beat the South Americans 2-1 in the first of many tournament upsets.
+From then on, Argentina grew in confidence, with Messi emerging unsurprisingly as their key player. The veteran forward rolled back the years and was in unstoppable form with seven goals in the tournament – one less than French striker Kylian Mbappe, who won the Golden Boot award.
+</p></div></article>
+
+<!--video available for the race of usain bolt which has a play button and a pause button as well-->
+    <button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+<video id="myVideo" width="320" height="176">
+  <source src="assets/Argentina%20v%20France%20_%20FIFA%20World%20Cup%20Qatar%202022%20Highlights%20-%20Copy.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script src="scripts/video.js"></script>
+
+<!--link to the youtube video where the audio was obtained from-->
+<p>Video courtesy of <a href="https://www.youtube.com/watch?v=zhEWqfP6V_w" target="_blank">FIFA WORLD CUP HIGHLIGHTS 2022</a>.</p>
+    
+<!-- Navigational features were placed here to navigate through other pages-->
+    <nav>
+        <ol>
+          <li><a href="index.html">Sport (Football)</a></li>
+          <li><a href="Basketball.html">Basketball</a></li>
+          <li><a href="Tennis.html">Tennis</a></li>
+          <li><a href="Boxing.html">Boxing</a></li>
+          <li><a href="Athletics.html">Athletics (Sprinting)</a></li>
+        </ol>
+    </nav>
+
+<!--  A footer was put in place which has the relevant information including links to facebook, instagram and twitter as well as email   -->
+    <footer>
+            <div id="fpcontactInformation">
+                <ul>
+                    <li id = "contact">Contact:</li>
+                    <li id = "name">Mr Alexander Stravens</li>
+                    <li id = "email">
+                        <a href="https://mail.google.com/mail/u/0/#inbox">a.d.stravens@gmail.com</a></li>
+                    <li id = "Phone">Phone number: +2482527258</li>
+                    
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i></a>
+                    
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:48px;color:orangered"></i></a>
+                    
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" style="font-size:48px;color:deepskyblue"></i></a>
+                </ul>
+                
+<!--                Double click  event created -->
+<p ondblclick="theEnding()">LEFT CLICK TWICE HERE.</p>
+<p id="paragraph"></p>
+<script src="scripts/end.js"></script>
+        </div>
+    </footer>
+</body>
+</html>

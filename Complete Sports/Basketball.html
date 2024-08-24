@@ -1,0 +1,180 @@
+<!-- Site for gamers world -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /*        background     */
+body {background-color: paleturquoise;}
+</style>
+    <!--    Title   -->
+    <title>Sports</title>
+    <meta charset="utf-8">
+    <meta name="description" content="LeBron James criticizes NBA officials in response to fan's conspiracy theory: 'Frustrating as hell'">
+    <meta name="author" content="LeBron James">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="LeBron James had his own words for NBA referees">
+    <!--    link to the style sheet.css  -->
+    <link rel="stylesheet" type="text/css" href="StyleSheet/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.js"></script>
+    <!--    link to create facebook icon   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts/alert.js"></script>
+</head>
+
+    <!-- body of Site -->
+    <body>
+        <!--Header-->
+<header><h3>Basketball&#128578;</h3></header>
+        
+<!--        image for sport on the top of the page     -->
+        <h1><img src="assets/sports%20logo.jfif" width="width" height="height" alt="sports"></h1>
+        
+<!--        Drop down button created for all HTML      -->
+        <h1><div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="index.html">Sport (Football)</a>
+    <a href="Basketball.html">Basketball</a>
+    <a href="Tennis.html">Tennis</a>
+    <a href="Boxing.html">Boxing</a>
+    <a href="Athletics.html">Athletics (Sprinting)</a>
+  </div>
+</div></h1>
+        
+<!--2 buttons for making full screen anc closing full screen     -->
+<button onclick="openFullscreen();">Go Fullscreen Mode</button>
+<button onclick="closeFullscreen();">Close Fullscreen</button>
+<script src="scripts/fullscreen.js"></script>
+        
+<!--        images connected to each HTML       -->
+<aside>
+        <!-- <th> -->
+        <a href="index.html">
+        <img src="assets/argentina.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th>
+        <th> -->
+        <a href="Basketball.html">
+        <img src="assets/lebron.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th>
+        <th> -->
+        <a href="Tennis.html">
+        <img src="assets/rafael%20nadal.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th> -->
+        <!-- <th> -->
+        <a href="Boxing.html">
+        <img src="assets/floyd%20mayweather.jfif" width="100" height="100" alt="sports">
+        </a>
+        <!-- </th> -->
+        <!--<th>-->
+        <a href="Athletics.html">
+        <img src="assets/Usain%20bolt.jfif" width="100" height="100" alt="sports">
+        </a>
+    </aside>
+        <!-- </th> -->
+
+<!--title of the article-->
+<section>
+<div id = "lrgImageMapCaption"><h1><p><b>LeBron James criticizes NBA officials in response to fan's conspiracy theory: 'Frustrating as hell'</b></p></h1></div>
+    
+<!--   content of the article     -->
+<div class = "lrgGroup one"><p>Criticizing officials is in vogue.
+A day after Joey Bosa sounded off on NFL officiating, LeBron James had his own words for NBA referees.
+James tweeted some likely fine-worthy criticism Monday. His tweet was in response to a fan conspiracy theory that the NBA has it out for the Lakers and intentionally ignores fouls against them. Said fan pointed to Sunday's Philadelphia 76ers win over Los Angeles as an example.
+The Lakers held possession of the ball in the game's final seconds while trailing, 113-112. Russell Westbrook drove against Joel Embiid from the left wing. He attacked the basket, but fell down without getting a shot off, and the 76ers held on for the one-point win.</p></div>
+    
+<!--        Image of Lebron James     -->
+<p>
+<img src="assets/lebron%20james.jfif" width="400" height="300" alt="sports">
+</p>
+    
+<!--title of the audio-->
+<div id = "lrgImageMapCaption"><h1>Lebron James Motivation - Mindset (Speech)</h1></div>
+
+<!--link to the youtube video where the audio was obtained from-->
+<p>Audio courtesy of <a href="https://www.youtube.com/watch?v=h3KxoKVZWng">Lebron James Motivation - Mindset (Speech)</a>.</p>     
+<p>
+
+<!--the audio itself available with play button and volume control, download and playback speed-->
+<audio controls>
+  <source src="assets/Lebron James Motivation - Mindset (Speech).mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+   
+<!--   content of the article     -->
+<div class = "lrgGroup one"><p>   
+Video replay shows Embiid grabbing Westbrook's right wrist as the Lakers guard attacked the basket. A fan tweeted closeup slow-motion video of the contact in a post asking: "Why is the NBA trying to make sure Lakers lose?"
+To be fair, that's a blatant foul. It was tough to see in real time, but the replay is difficult to dispute. Westbrook agreed after the game.
+"I was trying to get my hand up," Westbrook told reporters. "I couldn't get my hand up to shoot because he was grabbing it. But it's all good."
+Somehow, the NBA didn't concur, even with the benefit of replay and the accountability of its last-two-minute report. The report released Monday declared that Embiid did not foul Westbrook.
+"Embiid (PHI) slightly extends his arm before retracting it and marginal arm contact occurs with Westbrook (LAL) during the driving shot attempt," the L2M report reads.</p></div></section>
+        
+ <!--video available for the race of usain bolt which has a play button and a pause button as well-->
+ <article>     
+<button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+<video id="myVideo" width="320" height="176">
+  <source src="assets/LeBron%20James%20Top%2010%20IMPOSSIBLE%20dunks!!!.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script src="scripts/video.js"></script>
+     
+<!--link to the youtube video where the video was obtained from-->
+<p>Video courtesy of <a href="https://www.youtube.com/watch?v=Hv899eVZ3ps" target="_blank">LeBron James Top 10 IMPOSSIBLE dunks!!!</a>.</p>
+      
+<!--   content of the article     -->
+<div class = "lrgGroup one"><p>
+That's a generous definition of "marginal arm contact" and the kind of response tailor-made to feed into the conspiracy-minded wing of the NBA fan base. The league got this wrong on the floor and again upon review. Not great.
+This predictably perturbed Lakers fans and prompted James to get involved. Another fan responded to the above tweet and video asking, "How is this not a Huge Scandal?" That's where James chimed in with his own Twitter response that did not dispute the original premise that the NBA is out to get the Lakers. It also included direct criticism of NBA officiating.
+It's easy to see how James would be frustrated and willing to risk a fine by calling out a mistake. But co-signing a conspiracy theory that the NBA doesn't want the Lakers and James to win is next-level. Does he really believe that the league doesn't want its most marketable glamour franchise and its biggest superstar to win and is actively taking steps to ensure that they lose?
+We'll be waiting patiently for the NBA's response.
+</p></div>
+     
+<!--        Image of Lebron James     -->
+<p>
+<img src="assets/lebron.jfif" width="400" height="300" alt="sports">
+</p>        
+ </article>  
+        
+<!-- Navigational features were placed here to navigate through other pages-->
+    <nav>
+        <ol>
+          <li><a href="index.html">Sport (Football)</a></li>
+          <li><a href="Basketball.html">Basketball</a></li>
+          <li><a href="Tennis.html">Tennis</a></li>
+          <li><a href="Boxing.html">Boxing</a></li>
+          <li><a href="Athletics.html">Athletics (Sprinting)</a></li>
+        </ol>
+    </nav>
+
+    <!--  A footer was put in place which has the relevant information including links to facebook, instagram and twitter as well as email   -->
+    <footer>
+            <div id="fpcontactInformation">
+                <ul>
+                    <li id = "contact">Contact:</li>
+                    <li id = "name">Mr Alexander Stravens</li>
+                    <li id = "email">
+                        <a href="https://mail.google.com/mail/u/0/#inbox">a.d.stravens@gmail.com</a></li>
+                    <li id = "Phone">Phone number: +2482527258</li>
+                    
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i></a>
+                    
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:48px;color:orangered"></i></a>
+                    
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" style="font-size:48px;color:deepskyblue"></i></a>
+                </ul>
+                
+<!--                Double click  event created -->
+<p ondblclick="theEnding()">LEFT CLICK TWICE HERE.</p>
+<p id="paragraph"></p>
+<script src="scripts/end.js"></script>
+        </div>
+    </footer>
+</body>
+</html>
